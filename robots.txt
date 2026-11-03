@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://saurabhthakre.github.io/sitemap.xml
