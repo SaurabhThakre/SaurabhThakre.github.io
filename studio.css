@@ -87,3 +87,6 @@ body{font-size:18px;color:#000}.hero{grid-template-columns:1.5fr 1fr;gap:60px;mi
 @media(max-width:600px){.contact-accent{width:135px;margin-top:14px}.scroll-motion-ready .contact .contact-decoration{opacity:.25}.heading-word{display:inline}}
 @media(prefers-reduced-motion:reduce){.heading-line{transform:none!important}.evidence-image:after{transform:scaleY(0)!important}.achievement-copy{opacity:1!important;translate:none!important}.contact-accent path{stroke-dashoffset:0!important}.portrait-stage .orb,.portrait-stage .stage-spark,.project-art:before,.project-art:after{translate:none!important}.journey-card.is-active-chapter{background:#fff;box-shadow:none}}
 .project-art .art-sticker,.project-art .travel-sticker,.project-art .art-caption{z-index:2}
+
+/* Keep timeline entrances within narrow screens. */
+@media(max-width:600px) and (prefers-reduced-motion:no-preference){.reveal-ready .journey-item:not(.is-visible){transform:translateY(12px)}}
